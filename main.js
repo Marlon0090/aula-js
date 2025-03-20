@@ -7,3 +7,12 @@ function sum(a, b) {
 }
 
 console.log(sum(a, b)); 
+
+
+const sub = () => {
+
+    return 5-3;
+
+}
+
+console.log(sub)
