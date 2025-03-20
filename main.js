@@ -1,18 +1,9 @@
-var a = 5; // escopo global
-var b = 10; // escopo global
+const array = [2, 3, 4, 5, 6];
 
-function sum(a, b) {
-    let soma = a + b;
-    return soma;
-}
-
-console.log(sum(a, b)); 
-
-
-const sub = () => {
-
-    return 5-3;
-
-}
-
-console.log(sub)
+array.forEach(item => {
+    if (item % 2 === 0) {
+        console.log(`Número ${item} é par`);
+    } else {
+        console.log(`Número ${item} é ímpar`);
+    }
+});
