@@ -37,7 +37,7 @@ array.forEach(item => {
         console.log(`Número ${item} é ímpar`);
     }
 });
-*/
+
 
 function Carro (a,b,c,d,e){
     this.carro = a;
@@ -49,3 +49,13 @@ function Carro (a,b,c,d,e){
 
 var carro = new Carro('Camaro', 'Amarelo', 2021, 130000, false)
 console.log(carro)
+*/
+
+var lista = ["Vinicius", "Marlon", "imolene", "patrick"];
+
+console.log(lista); // Imprime todo o array
+
+console.log(lista[3]); // Imprime "patrick", que está no índice 3
+
+lista.push("piaget"); // Adiciona "piaget" no final do array
+console.log(lista); // Agora a lista tem o novo item ["Vinicius", "Marlon", "imolene", "patrick", "piaget"]
