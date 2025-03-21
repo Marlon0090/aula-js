@@ -49,7 +49,7 @@ function Carro (a,b,c,d,e){
 
 var carro = new Carro('Camaro', 'Amarelo', 2021, 130000, false)
 console.log(carro)
-*/
+
 
 var lista = ["Vinicius", "Marlon", "imolene", "patrick"];
 
@@ -62,3 +62,25 @@ console.log(lista); // Agora a lista tem o novo item ["Vinicius", "Marlon", "imo
 lista.pop();
 console.log (lista);
 console.log(lista.length);
+
+teste = [
+
+]
+*/
+
+
+function Aluno(nome, nota) {
+    this.aluno = nome;
+    this.nota = nota;
+}
+
+
+var aluno = new Aluno('Marlon', 10);
+
+
+console.log(aluno);
+
+
+var aluno2 = new Aluno('Vinicius', 8);
+console.log(aluno2);
+
