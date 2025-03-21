@@ -1,9 +1,9 @@
-const array = [2, 3, 4, 5, 6];
+function Pessoa (a,b){ 
+    this.nome = a;
+    this.idade = b;
+}
 
-array.forEach(item => {
-    if (item % 2 === 0) {
-        console.log(`Número ${item} é par`);
-    } else {
-        console.log(`Número ${item} é ímpar`);
-    }
-});
+const x = new Pessoa ('Marlon', 24); 
+const y = new Pessoa ('Vinicius', 21) 
+console.log(x);
+console.log(y);
